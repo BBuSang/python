@@ -18,4 +18,9 @@ class Person:
         if value < 0:
             raise ValueError("나이는 음수가 될 수 없습니다.")
         self._age = value
-
+    
+p1 = Person("홍길동", 25)
+print(p1.name)  # 홍길동
+print(p1.age)   # 25
+p1.age = 30
+print(p1.age)   # 30
