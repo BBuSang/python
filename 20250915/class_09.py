@@ -42,5 +42,4 @@ class RPSGame :
                 print("게임을 종료합니다.")
                 break
 
-a = RPSGame()
-a.play()
+RPSGame().play()
