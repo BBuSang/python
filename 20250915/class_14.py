@@ -8,7 +8,7 @@
 # 상품관리 클래스명 Product
 # 상품명 Product_name, 가격 Product_price, 재고 Product_stock
 
-class Product : 
+class Product() : 
     count = 0
     def __init__(self, product_name, product_price, product_stock):
         self.id = Product.count+1
